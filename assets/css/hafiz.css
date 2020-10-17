@@ -1,0 +1,50 @@
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+#cardholder{
+    /*height:520px; */
+    order:0px solid black;
+}
+
+#card{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+    border-radius: 0.5rem;
+    background: wheat;
+    width:100%;
+    aspect-ratio: 16 / 9;
+}
+
+#infoholder{
+    padding:12px;
+}
+
+#title{
+    font-weight: 600;
+}
+
+#desc{
+
+}
+
+#techstack{
+    color: rgb(90,90,90);
+    font-size: 14px;
+    margin: 8px 0px;
+}
+
+@media (max-width: 768px) {
+    #content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    #card{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    
+}
