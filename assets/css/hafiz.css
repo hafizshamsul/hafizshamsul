@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 14px;
+    padding: 0 14px;
 }
 
 #cardholder{
     /*height:520px; */
-    order:0px solid black;
+    border:0px solid black;
 }
 
 #card{
@@ -19,7 +20,7 @@
 }
 
 #infoholder{
-    padding:12px;
+    padding:10px 12px;
 }
 
 #title{
@@ -44,9 +45,9 @@
     }
 
     #card{
-        border-radius: 0px;
+        /*border-radius: 0px;*/
         /*box-shadow: none;*/
-        /*border:none;*/
+        border:none;
         box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
         border-left: none;
         border-right: none;
