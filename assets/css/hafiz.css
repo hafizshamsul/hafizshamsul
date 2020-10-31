@@ -38,6 +38,17 @@
     margin: 8px 0px;
 }
 
+#headerweb{
+    display: block;
+    display: grid;
+    grid-template-columns: auto auto auto auto 1fr;
+    margin:18px 0px 12px 0px; 
+}
+
+#headermobile{
+    display: none;
+}
+
 @media (max-width: 768px) {
     #content{
         display: grid;
@@ -52,6 +63,14 @@
         box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
         border-left: none;
         border-right: none;
+    }
+
+    #headerweb{
+        display: none;
+    }
+
+    #headermobile{
+        display: block;
     }
     
 }
