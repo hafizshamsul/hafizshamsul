@@ -54,7 +54,7 @@
 }
 
 #biopad{
-    display: grid; grid-template-columns: auto; padding: 0 140px 30px 140px;
+    display: grid; grid-template-columns: auto; padding: 0 200px 30px 200px;
 }
 
 @media (max-width: 768px) {
