@@ -87,5 +87,6 @@
     
     #biopad{
         display: grid; grid-template-columns: auto; padding: 0 24px 30px 24px;
+        line-height: 2.2rem;
     }
 }
