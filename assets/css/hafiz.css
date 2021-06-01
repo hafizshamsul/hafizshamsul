@@ -53,6 +53,10 @@
     font-size: 20px;
 }
 
+#biopad{
+    display: grid; grid-template-columns: auto; padding: 0 100px 30px 100px;
+}
+
 @media (max-width: 768px) {
     #content{
         display: grid;
@@ -78,7 +82,10 @@
     }
 
     #bio{
-        font-size: 16px;
+        font-size: 18px;
     }
     
+    #biopad{
+        display: grid; grid-template-columns: auto; padding: 0 24px 30px 24px;
+    }
 }
